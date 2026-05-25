@@ -31,11 +31,16 @@ body { overflow-x: hidden; }
 /* Gradient Button Color */
 :root {
  --primary-btn-gradient: linear-gradient(to right, #F3395E, #9431B6);
+ --primary-bg-gradient: linear-gradient(to right, #9431B6, #F3395E);
 }
 
 .primary-btn {
   background: var(--primary-btn-gradient);
   color: white;
+}
+
+.primary-bg {
+  background: var( --primary-bg-gradient);
 }
 
 .primary-txt {

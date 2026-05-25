@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { ArrowRight } from 'lucide-react';
 
 
 
@@ -47,7 +47,7 @@ function OurServices() {
 
 
   return (
-    <div className="overflow-hidden relative h-full w-full py-20 px-5 sm:px-6 md:px-8 lg:px-45 bg-[url('/Home/OurServices/bg.png')] bg-center bg-cover bg-no-repeat ">
+    <div className="overflow-hidden relative h-full w-full py-20 px-5 sm:px-6 md:px-8 lg:px-45 bg-[url('/Home/OurServices/bg.png')] max-lg:bg-center bg-cover bg-no-repeat ">
 
 
         <div className='flex flex-col gap-10 lg:gap-20'>
@@ -84,6 +84,23 @@ function OurServices() {
                 </div>
             ))
         }
+        </div>
+
+
+        <div className='flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-10'>
+
+            <button className='flex items-center justify-between p-4 rounded-md primary-btn w-60 cursor-pointer'>
+                <span>View All</span>
+                <ArrowRight className='w-5 h-5'/>
+            </button>
+
+
+            <button className='flex items-center justify-between p-4 rounded-md bg-transparent border-1 border-pink-500 w-60 text-white hover:-translate-y-[2px] cursor-pointer hover:border-purple-500'>
+                <span>Request a Call Back</span>
+                <ArrowRight className='w-5 h-5'/>
+            </button>
+
+
         </div>
 
 

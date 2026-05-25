@@ -2,6 +2,11 @@ import HeroSection from './HeroSection.jsx'
 import UniqueApproach from './UniqueApproach.jsx'
 import Experience from './Experience.jsx'
 import OurServices from './OurServices.jsx'
+import WhoWeAre from './WhoWeAre.jsx'
+import Packages from './Packages.jsx'
+import OurProjects from './OurProjects.jsx'
+import Acheivements from './Acheivements.jsx'
+import AllInOne from './AllInOne.jsx'
 
 function Home() {
   return (
@@ -10,6 +15,11 @@ function Home() {
     <UniqueApproach/>
     <Experience/>
     <OurServices/>
+    <WhoWeAre/>
+    <Packages/>
+    <OurProjects/>
+    <Acheivements/>
+    <AllInOne/>
 
       
     </>

@@ -40,8 +40,8 @@ function Navbar() {
 
   return (
     <div
-      className={`fixed flex justify-between lg:justify-evenly px-6 lg:px-0 top-0 left-0 w-full z-50 transition-all duration-300 backdrop-blur-xs bg-white/20 ${
-        isScrolled ? " shadow-lg py-3" : "py-5"
+      className={`fixed flex justify-between lg:justify-evenly px-6 lg:px-0 top-0 left-0 w-full z-50 transition-all duration-300 ${
+        isScrolled ? " shadow-lg py-3 primary-bg" : "py-5  backdrop-blur-xs bg-white/20"
       }`}
     >
       {/* Logo */}
@@ -106,7 +106,7 @@ function Navbar() {
                 to="/highrisk"
                 className={({ isActive }) =>
                   `px-4 py-2 text-sm ${
-                    isActive ? "text-blue-600 font-semibold" : "hover:text-blue-400"
+                    isActive ? "text-orange-600 font-semibold" : "hover:text-orange-400"
                   }`
                 }
               >
@@ -117,7 +117,7 @@ function Navbar() {
                 to="/lowrisk"
                 className={({ isActive }) =>
                   `px-4 py-2 text-sm ${
-                    isActive ? "text-blue-600 font-semibold" : "hover:text-blue-400"
+                    isActive ? "text-orange-600 font-semibold" : "hover:text-orange-400"
                   }`
                 }
               >
@@ -139,7 +139,7 @@ function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href="tel:+8557706938"
-            className="primary-btn p-2 px-5 rounded-md cursor-pointer transition-all duration-300 flex gap-3 items-center hover:opacity-90 font-medium text-base"
+            className={`p-2 px-5 rounded-md cursor-pointer transition-all duration-300 flex gap-3 items-center hover:opacity-90 font-medium text-base ${isScrolled ? 'bg-white' : 'primary-btn' }`}
           >
             Get Free Consultation
           </motion.a>
