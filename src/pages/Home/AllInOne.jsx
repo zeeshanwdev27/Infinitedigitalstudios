@@ -72,7 +72,7 @@ function AllInOne() {
 
         {/* Slider 1 */}
         <SwiperSlide>
-        <div className='flex flex-col gap-10 lg:gap-0 lg:flex-row w-full'>
+        <div className='flex flex-col gap-10 lg:gap-50 lg:flex-row w-full'>
 
 
             {/* Image */}
@@ -172,7 +172,7 @@ function AllInOne() {
 
         {/* Slider 2 */}
         <SwiperSlide>
-        <div className='flex flex-col gap-10 lg:gap-0 lg:flex-row w-full'>
+        <div className='flex flex-col gap-10 lg:gap-50 lg:flex-row w-full'>
 
 
             {/* Image */}
@@ -272,7 +272,7 @@ function AllInOne() {
 
         {/* Slider 3 */}
         <SwiperSlide>
-        <div className='flex flex-col gap-10 lg:gap-0 lg:flex-row w-full'>
+        <div className='flex flex-col gap-10 lg:gap-50 lg:flex-row w-full'>
 
 
             {/* Image */}

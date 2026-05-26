@@ -84,6 +84,7 @@ const handleCategoryClick = (category) => {
 
   return (
     <div className="overflow-hidden relative h-full w-full py-20 px-5 sm:px-6 md:px-8 lg:px-45 bg-[url('/Home/UniqueApproach/bg.png')] bg-cover bg-no-repeat ">
+      
       <div className="flex flex-col items-center justify-center gap-15">
       
         <div className="flex flex-col gap-2 text-center">

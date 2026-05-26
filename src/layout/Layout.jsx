@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "@/components/Navbar/Navbar";
-// import Footer from "@/components/Footer/Footer";
+import Footer from "@/components/Footer/Footer";
 import LenisScroll from "@/components/lenis";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -20,7 +20,7 @@ function Layout() {
         <Outlet />
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

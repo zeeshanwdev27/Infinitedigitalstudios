@@ -48,6 +48,13 @@ body { overflow-x: hidden; }
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.primary-txt2 {
+  background: var(--primary-bg-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .primary-btn:hover {
   filter: brightness(1.1);
   transform: translateY(-2px);

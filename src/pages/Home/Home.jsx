@@ -7,6 +7,10 @@ import Packages from './Packages.jsx'
 import OurProjects from './OurProjects.jsx'
 import Acheivements from './Acheivements.jsx'
 import AllInOne from './AllInOne.jsx'
+import MakeImpact from './MakeImpact.jsx'
+import ReadyToGetStarted from './ReadyToGetStarted.jsx'
+
+
 
 function Home() {
   return (
@@ -20,8 +24,9 @@ function Home() {
     <OurProjects/>
     <Acheivements/>
     <AllInOne/>
+    <MakeImpact/>
+    <ReadyToGetStarted/>
 
-      
     </>
   )
 }
