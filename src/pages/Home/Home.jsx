@@ -9,6 +9,7 @@ import Acheivements from './Acheivements.jsx'
 import AllInOne from './AllInOne.jsx'
 import MakeImpact from './MakeImpact.jsx'
 import ReadyToGetStarted from './ReadyToGetStarted.jsx'
+import Testimonials from './Testimonials.jsx'
 
 
 
@@ -26,6 +27,7 @@ function Home() {
     <AllInOne/>
     <MakeImpact/>
     <ReadyToGetStarted/>
+    <Testimonials/>
 
     </>
   )
