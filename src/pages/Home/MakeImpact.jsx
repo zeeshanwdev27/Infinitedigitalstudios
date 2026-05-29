@@ -195,7 +195,7 @@ const iconVariants = {
                                                 >
                                                     <motion.h3 
                                                         className="text-md lg:text-lg font-medium text-slate-800 pr-3 sm:pr-4 lg:pr-6 leading-relaxed"
-                                                        whileHover={{ color: "#f59e0b" }}
+                                                        whileHover={{ color: "#c084fc" }}
                                                         transition={{ duration: 0.2 }}
                                                     >
                                                         {faq.title}

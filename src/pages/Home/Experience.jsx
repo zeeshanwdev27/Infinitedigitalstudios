@@ -45,7 +45,7 @@ function Experience() {
 
         <div className='flex flex-col lg:flex-row gap-5'>
 
-            <img src="/Home/Experience/card.png" alt="card" className='h-100 md:h-120 lg:h-140 hover:scale-102' />
+            <img src="/Home/Experience/card.png" alt="card" className='h-90 md:h-120 lg:h-140 hover:scale-102' />
 
 
             <div className='flex flex-col gap-5 w-full max-w-4xl'>

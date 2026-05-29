@@ -40,7 +40,7 @@ function Navbar() {
 
   return (
     <div
-      className={`fixed flex justify-between lg:justify-evenly px-6 lg:px-0 top-0 left-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed z-999 flex justify-between lg:justify-evenly px-6 lg:px-0 top-0 left-0 w-full transition-all duration-300 ${
         isScrolled ? " shadow-lg py-3 primary-bg" : "py-5  backdrop-blur-xs bg-white/20"
       }`}
     >

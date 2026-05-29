@@ -11,8 +11,7 @@ function HeroSection() {
     <div className="overflow-hidden relative min-h-screen mx-auto py-3 md:py-5 lg:pt-40 px-5 sm:px-6 md:px-8 lg:px-10 w-full bg-[url('/Home/HeroSection/herosection.png')] bg-cover bg-no-repeat ">
     
     
-    
-    <div className=" text-white flex flex-col items-center justify-center lg:flex-row gap-8 lg:gap-50 mt-30 md:mt-30 lg:mt-10">
+    <div className=" text-white flex flex-col items-center justify-center lg:flex-row gap-8 lg:gap-50 mt-30 md:mt-30 lg:mt-10 lg:mb-25">
 
       {/* Left Side */}
      <div className='relative flex flex-col gap-6 md:gap-8 w-full lg:max-w-3xl '>
@@ -22,6 +21,9 @@ function HeroSection() {
       <img src="/Home/HeroSection/laugh.png" alt="shocking" className="hidden lg:block absolute w-30 h-18 md:w-20 md:h-20 -left-8 top-10 md:-left-35  floating" />
       <img src="/Home/HeroSection/heart.png" alt="shocking" className="hidden lg:block absolute w-40 h-20 md:w-25 md:h-25 bottom-0 -left-35  floating" />
 
+      {/* Mobile Emoji Icons */}
+      {/* <img src="/Home/HeroSection/laugh.png" alt="shocking" className="lg:hidden absolute w-15 h-12 md:w-20 md:h-20 -left-2 top-45 md:-left-35  floating" /> */}
+      {/* <img src="/Home/HeroSection/heart.png" alt="shocking" className="lg:hidden absolute w-18 h-15 md:w-20 md:h-20 -left-2 top-45 md:-left-35  floating" /> */}
 
       {/* Componies Icons */}
       <motion.div 
@@ -108,18 +110,20 @@ function HeroSection() {
 
      <div className="relative flex items-center">
 
-           {/* Emoji's Icons */}
+      {/* Emoji's Icons */}
      <img src="/Home/HeroSection/shocking.png" alt="shocking" className="hidden lg:block absolute z-50 w-30 h-18 md:w-20 md:h-20 -top-8 md:-top-13 -right-3 md:-right-1 floating" />
      <img src="/Home/HeroSection/cool.png" alt="shocking" className="hidden lg:block absolute z-50 w-30 h-18 md:w-20 md:h-20 -left-8 top-30 md:-left-35  floating" />
      <img src="/Home/HeroSection/lovely.png" alt="shocking" className="hidden lg:block absolute z-50 w-30 h-18 md:w-20 md:h-20 -bottom-8 md:-bottom-10 -right-3 md:-right-25 floating" />
 
+      {/* Mobile Emoji's Icons */}
+     <img src="/Home/HeroSection/shocking.png" alt="shocking" className="lg:hidden absolute z-50 w-20 h-18 md:w-20 md:h-20 -top-8 md:-top-13 -right-3 md:-right-1 floating" />
 
     <motion.div 
                     initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2, type: "spring", stiffness: 320, damping: 70, mass: 1 }}
-    className='h-fit p-[8px] rounded-xl bg-gradient-to-b from-[#FC9D44] to-[#FF4969]'>
+                className='h-fit p-[8px] rounded-xl bg-gradient-to-b from-[#FC9D44] to-[#FF4969]'>
       
      
      <div className='relative flex flex-col gap-6 md:gap-10 py-8 md:py-15 rounded-xl px-6 md:px-10 h-auto w-full max-w-2xl lg:max-w-2xl  lg:mx-0 bg-black/90 text-white order-1 '>
@@ -184,10 +188,10 @@ function HeroSection() {
                   }
           }} >
         <div className='flex flex-col gap-4 md:gap-5'>
-        <input type="text" name='fullname' required placeholder='Full Name*' className='border-b border-[#FF9631] p-2 md:p-1 focus:outline-none focus:border-b-2 focus:border-[#ff7a00] focus:ring-0' />
-        <input type="email" name='email' required placeholder='Email Address*' className='border-b border-[#FF9631] p-2 md:p-1 focus:outline-none focus:border-b-2 focus:border-[#ff7a00] focus:ring-0' />
-        <input type="number" name='phonenumber' required placeholder='Phone Number*' className='border-b border-[#FF9631] p-2 md:p-1 focus:outline-none focus:border-b-2 focus:border-[#ff7a00] focus:ring-0' />
-        <input type="text" name='message' placeholder='Write us a message' className='border-b border-[#FF9631] p-2 md:p-1 focus:outline-none focus:border-b-2 focus:border-[#ff7a00] focus:ring-0' />
+        <input type="text" name='fullname' required placeholder='Full Name*' className='border-b border-[#c084fc] p-2 md:p-1 focus:outline-none focus:border-b-2 focus:border-[#7c3aed] focus:ring-0' />
+        <input type="email" name='email' required placeholder='Email Address*' className='border-b border-[#c084fc] p-2 md:p-1 focus:outline-none focus:border-b-2 focus:border-[#7c3aed] focus:ring-0' />
+        <input type="number" name='phonenumber' required placeholder='Phone Number*' className='border-b border-[#c084fc] p-2 md:p-1 focus:outline-none focus:border-b-2 focus:border-[#7c3aed] focus:ring-0' />
+        <input type="text" name='message' placeholder='Write us a message' className='border-b border-[#c084fc] p-2 md:p-1 focus:outline-none focus:border-b-2 focus:border-[#7c3aed] focus:ring-0' />
         </div>
 
         <p className='text-xs md:text-sm'>

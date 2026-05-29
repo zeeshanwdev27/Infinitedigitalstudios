@@ -10,10 +10,10 @@ function Footer() {
 
 
         {/* Top */}
-        <div className='flex justify-between items-center border-b border-gray-400 pb-8'>
+        <div className='flex flex-col gap-10 lg:flex-row justify-between lg:items-center border-b border-gray-400 pb-8'>
             <img src="/Home/Footer/logo.png" alt="" className='w-80 h-15' />
 
-        <div className='relative flex gap-10 divide-red-300'>
+        <div className='relative flex flex-col lg:flex-row gap-5 lg:gap-10 divide-red-300'>
 
             {/* Divider */}
             <div className='hidden lg:block absolute -top-1 right-56 h-12 w-[1.6px] bg-white/40'></div>
@@ -46,12 +46,11 @@ function Footer() {
         </div>
 
 
-
          {/* Main */}
-        <div className='grid grid-cols-5'>
+        <div className='flex flex-col gap-8 lg:grid grid-cols-5'>
 
             {/* About */}
-            <div className='flex flex-col gap-8 w-full col-span-2 max-w-xs'>
+            <div className='flex flex-col gap-5 w-full col-span-2 max-w-xs'>
                 <h1 className='text-xl font-bold'>About Us</h1>
                 <p className='text-gray-500 text-md max-w-lg'>asdssaadais a digital marketing agency that specializes in bringing out the best in brands through a comprehensive range of services. From social media marketing to logo design, we do it all, and we do it best.</p>
                 <div className='flex flex-col gap-2'>
@@ -71,7 +70,7 @@ function Footer() {
 
 
             {/* Quick links */}
-            <div className='flex flex-col gap-8'>
+            <div className='flex flex-col gap-5 lg:gap-8'>
                 <h1 className='text-xl font-bold'>Quick Links</h1>
                 <ul className='flex flex-col gap-3'>
                     <li className='text-md text-gray-400 cursor-pointer hover:text-purple-400'>Home</li>
@@ -87,7 +86,7 @@ function Footer() {
 
 
             {/* Services links */}
-            <div className='flex flex-col gap-8'>
+            <div className='flex flex-col gap-5 lg:gap-8'>
                 <h1 className='text-xl font-bold'>Services</h1>
                 <ul className='flex flex-col gap-3'>
                     <li className='text-md text-gray-400 cursor-pointer hover:text-purple-400'>PPC Services</li>
@@ -103,14 +102,13 @@ function Footer() {
 
 
             {/* CTA */}
-            <div className='flex flex-col gap-8'>
+            <div className='flex flex-col gap-5 lg:gap-8'>
                     <h1 className='text-xl font-bold'>Subscribe Now</h1>
                 <div className='flex flex-col gap-2'>
                     <p className='text-gray-500 text-md'>Only valuable resource no bullshit</p>
-                    <div className='flex gap-1 py-2 px-4 bg-white/5 backdrop-blur-xl border border-white/20 outline-none focus:ring-1 focus:ring-purple-400 rounded-sm'>
+                    <div className='w-full max-w-xs flex gap-1 py-2 px-4 bg-white/5 backdrop-blur-xl border border-white/20 rounded-sm transition-all focus-within:ring-1 focus-within:ring-purple-400 focus-within:border-purple-400'>
                         <input type="text" className='outline-none w-full' placeholder='Your Email*' />
                         <button className='p-2 px-3 rounded-lg primary-btn  cursor-pointer text-md font-semibold'><ArrowUpRight className='w-4 h-4'/></button>
-                        
                     </div>
                 </div>
 
@@ -121,11 +119,10 @@ function Footer() {
         </div>
 
 
-
         {/* Bottom */}
         <div className='flex justify-center items-center'>
-                    <div className='mt-15 w-full max-w-4xl bg-white/5 backdrop-blur-xl border border-white/20 flex justify-center items-center py-4 rounded-lg'>
-           <p className='text-md text-stone-300'>© Copyright 2024 —asdssaada All Rights Reserved.</p>
+                <div className='mt-5 lg:mt-15 w-full max-w-4xl bg-white/5 backdrop-blur-xl border border-white/20 flex justify-center items-center py-4 rounded-lg'>
+                <p className='text-md text-stone-300'>© Copyright 2024 —asdssaada All Rights Reserved.</p>
         </div>
 
         </div>

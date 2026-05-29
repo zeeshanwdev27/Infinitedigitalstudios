@@ -39,7 +39,7 @@ function ReadyToGetStarted() {
           <div className='flex flex-col justify-center gap-10 px-4'>
 
             <div className='flex gap-5'>
-              <MapPin className='w-14 h-14 p-3 rounded-full primary-btn'/>
+              <MapPin className='w-10 h-10 lg:w-14 lg:h-14 p-2 lg:p-3 rounded-full primary-btn'/>
 
               <div className='flex flex-col gap-2'>
                 <h1 className='text-xl sm:text-2xl font-bold font-bricolage'>Our Locations</h1>
@@ -49,7 +49,7 @@ function ReadyToGetStarted() {
             </div>
 
             <div className='flex gap-5'>
-              <Mail className='w-14 h-14 p-3 rounded-full primary-btn'/>
+              <Mail className='w-10 h-10 lg:w-14 lg:h-14 p-2 lg:p-3 rounded-full primary-btn'/>
 
               <div className='flex flex-col gap-2'>
                 <h1 className='text-xl sm:text-2xl font-bold font-bricolage'>Mail us</h1>
@@ -60,7 +60,7 @@ function ReadyToGetStarted() {
 
 
             <div className='flex gap-5'>
-              <Clock className='w-14 h-14 p-3 rounded-full primary-btn'/>
+              <Clock className='w-10 h-10 lg:w-14 lg:h-14 p-2 lg:p-3 rounded-full primary-btn'/>
 
               <div className='flex flex-col gap-2'>
                 <h1 className='text-xl sm:text-2xl font-bold font-bricolage'>Opening Hours</h1>
