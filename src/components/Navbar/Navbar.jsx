@@ -87,7 +87,7 @@ function Navbar() {
           </li>
 
           <li>
-            <NavLink to="/aboutus" className={navClass}>
+            <NavLink to="/about-us" className={navClass}>
               About Us
             </NavLink>
           </li>

@@ -3,6 +3,7 @@ import { createBrowserRouter, createRoutesFromElements, Route } from "react-rout
 import Layout from "./layout/Layout.jsx"
 
 const Home = React.lazy(()=> import('./pages/Home/Home'))
+const AboutUs = React.lazy(()=> import('./pages/AboutUs/AboutUs'))
 
 
 
@@ -14,7 +15,7 @@ const App = createBrowserRouter(
      <Route index element={<Home />} />
 
      {/* HighRisk */}
-     {/* <Route path="/highrisk" element={<HighRisk />} />   */}
+     <Route path="/about-us" element={<AboutUs />} />  
 
      
      </Route>
